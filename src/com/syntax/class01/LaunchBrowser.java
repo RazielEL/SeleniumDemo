@@ -7,7 +7,7 @@ public class LaunchBrowser {
 
     public static void main(String[] args){
 
-        System.setProperty("webdriver.chrome.driver","Drivers/chromedriver"); // ustawiamy to i mamy 2 stringi. 1 to built in value, do zapamietania. Natomiast 2: to sciezka, gdzie jest
+        System.setProperty("webdriver.chrome.driver","Drivers/chromedriver.exe"); // ustawiamy to i mamy 2 stringi. 1 to built in value, do zapamietania. Natomiast 2: to sciezka, gdzie jest
                                                         // driver, najlepiej go dac w folderze dodatkowym glownym w IdeaProjects, u mnie drivers. Na windowsie trzeba
                                                         // dodac .exe na koncu.
         WebDriver driver = new ChromeDriver();
